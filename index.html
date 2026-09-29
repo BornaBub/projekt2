@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitPulse — Pametni fitness pratitelj</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 font-display antialiased transition-colors duration-300">
+
+  <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-brand focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">
+        FitPulse
+      </a>
+      <nav class="flex items-center gap-4 sm:gap-6">
+        <a href="#znacajke" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand dark:hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Značajke</a>
+        <a href="#cijene" class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand dark:hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Cijene</a>
+        <a href="#kontakt" class="hidden sm:inline-block text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-brand dark:hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Kontakt</a>
+        <a href="#cijene" class="btn-primary text-sm py-2 px-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white">Naruči</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20 lg:py-28 flex flex-col items-center text-center">
+      <span class="inline-block bg-brand/10 text-brand text-xs font-semibold px-3 py-1 rounded-full mb-4">Novo na tržištu — Verzija 2.0</span>
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight max-w-3xl mb-6 leading-tight">
+        Preuzmi kontrolu nad svojim zdravljem i kondicijom.
+      </h1>
+      <p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mb-8">
+        FitPulse prati tvoje otkucaje srca, san i dnevne aktivnosti uz naprednu AI analizu koja se prilagođava tvom ritmu života.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+        <a href="#cijene" class="btn-primary text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2">Naruči odmah</a>
+        <a href="#znacajke" class="border border-gray-300 dark:border-gray-700 font-medium px-6 py-3 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand">Saznaj više</a>
+      </div>
+    </section>
+
+    <section id="znacajke" class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div class="text-center max-w-xl mx-auto mb-12">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-3">Zašto odabrati FitPulse?</h2>
+        <p class="text-gray-600 dark:text-gray-400 text-sm sm:text-base">Sve što ti treba za postizanje fitness ciljeva na jednom mjestu.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="card-feature">
+          <div class="w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center font-bold text-lg mb-4"></div>
+          <h3 class="text-lg font-bold mb-2">Praćenje u stvarnom vremenu</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Trenutni uvid u puls, potrošene kalorije i pređene korake bez kašnjenja i praznog hoda baterije.</p>
+        </div>
+
+        <div class="card-feature">
+          <div class="w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center font-bold text-lg mb-4"></div>
+          <h3 class="text-lg font-bold mb-2">Analiza sna i oporavka</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Duboka analiza faza sna s personaliziranim savjetima za brži oporavak tijela nakon teških treninga.</p>
+        </div>
+
+        <div class="card-feature" id="cijene">
+          <div class="w-12 h-12 bg-brand/10 text-brand rounded-xl flex items-center justify-center font-bold text-lg mb-4"></div>
+          <h3 class="text-lg font-bold mb-2">Izdržljiva baterija</h3>
+          <p class="text-sm text-gray-600 dark:text-gray-400">Do 14 dana rada s jednim punjenjem uz vodootporno kućište prilagođeno svim ekstremnim uvjetima.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontakt" class="border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 mt-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500 dark:text-gray-400">
+      <p>&copy; 2026 FitPulse. Sva prava pridržana.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Uvjeti korištenja</a>
+        <a href="#" class="hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Privatnost</a>
+        <a href="#" class="hover:text-brand transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand rounded px-1">Podrška</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
